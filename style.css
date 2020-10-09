@@ -12,13 +12,13 @@
     height: 700px;
     width: 100%;
     
-    animation-name: slideshow;
-    animation-duration: 1s;
+/*     animation-name: slideshow;
+    animation-duration: 1s; */
     /* animation-fill-mode: forwards; */
     
     
 }
-@keyframes slideshow{
+/* @keyframes slideshow{ */
  /* 0%{
      opacity: 1.0;
  }
@@ -53,11 +53,11 @@
      opacity: 0;
     
  } */
- from{
+/*  from{
      opacity: 1.0;
  }
  to{
-     opacity: 0.4;
+     opacity: 0.4; */
  }
 } 
 
