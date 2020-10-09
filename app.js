@@ -17,7 +17,7 @@ function random(){
 
 setInterval(function(){
 image.style.background = `url('${random()}.jpg') no-repeat center center/cover`;
-image.style.animationIterationCount = 'infinite';
+// image.style.animationIterationCount = 'infinite';
 },1000);
 
 
