@@ -1,4 +1,4 @@
-let i;
+
 let image = document.getElementById('img');
 
     // image.addEventListener('click', function fun() {
