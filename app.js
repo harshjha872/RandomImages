@@ -1,5 +1,8 @@
-
+let i;
 let image = document.getElementById('img');
+let imageleft = {"opacity":"1"};
+let imageright = {"opacity":"0"};
+let AnimationDuration = {"duration":2000}
 
     // image.addEventListener('click', function fun() {
 
@@ -8,7 +11,7 @@ let image = document.getElementById('img');
     
     // });
 function random(){
-    return Math.floor(Math.random() * 5) + 1 ; 
+    return Math.floor(Math.random() * 17) + 1 ; 
 
 }
 
@@ -17,8 +20,9 @@ function random(){
 
 setInterval(function(){
 image.style.background = `url('${random()}.jpg') no-repeat center center/cover`;
-// image.style.animationIterationCount = 'infinite';
-},1000);
+image.animate([imageleft,imageright],AnimationDuration);
+
+},2000);
 
 
 
