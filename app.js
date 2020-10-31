@@ -2,7 +2,8 @@ const img = document.getElementById('image');
 const btn = document.getElementById('button');
 let moveright = { opacity: "1" };
 let moved = { opacity: "0" };
-let animationduration = { "duration": 1000 };
+let animationduration = { "duration": 1000
+ };
 let fade1 = { opacity: "1" };
 let fade2 = { opacity: "0" };
 
@@ -25,7 +26,8 @@ let fadeinNext = () => {
 let fadeout = () => {
     let fade5 = { opacity: "0" };
     let fade6 = { opacity: "1" };
-    let Animeduration = { "duration": 500 }
+    let Animeduration = { "duration": 500,
+"delay": 2000 }
     img.animate([fade6, fade5], Animeduration).onfinish = fadeinNext;
 
 }
